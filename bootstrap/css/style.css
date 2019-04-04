@@ -221,6 +221,48 @@ hr{
     .pad-bot{
         padding-bottom: 10px;
     }
+    .parallax {
+        /* L’image du Parallax */
+        background-image: url("../../img/hardCourt.jpg");
+
+        /* L’hauteur du Parallax */
+        height: 100px;
+
+        /* Création de l’effet */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .parallax > .row, .parallax2 > .row, .parallax3 > .row{
+        height: 100%;
+    }
+    .parallax2 {
+        /* L’image du Parallax */
+        background-image: url("../../img/clayCourt.jpg");
+
+        /* L’hauteur du Parallax */
+        height: 100px;
+
+        /* Création de l’effet */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .parallax3 {
+        /* L’image du Parallax */
+        background-image: url("../../img/grassCourt.jpg");
+
+        /* L’hauteur du Parallax */
+        height: 100px;
+
+        /* Création de l’effet */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 
 }
 
