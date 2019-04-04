@@ -226,7 +226,7 @@ hr{
         background-image: url("../../img/hardCourt.jpg");
 
         /* L’hauteur du Parallax */
-        height: 100px;
+        height: 900px;
 
         /* Création de l’effet */
         background-attachment: fixed;
@@ -242,7 +242,7 @@ hr{
         background-image: url("../../img/clayCourt.jpg");
 
         /* L’hauteur du Parallax */
-        height: 100px;
+        height: 900px;
 
         /* Création de l’effet */
         background-attachment: fixed;
@@ -255,7 +255,7 @@ hr{
         background-image: url("../../img/grassCourt.jpg");
 
         /* L’hauteur du Parallax */
-        height: 100px;
+        height: 900px;
 
         /* Création de l’effet */
         background-attachment: fixed;
@@ -263,7 +263,6 @@ hr{
         background-repeat: no-repeat;
         background-size: cover;
     }
-
 }
 
 @media screen and (min-width: 481px) and (max-width: 1199px) {
