@@ -1,0 +1,229 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+.navbar {
+    background-color: #006dff;
+}
+.navbar .navbar-brand {
+    color: #00ffe8;
+}
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+    color: #000000;
+}
+.navbar .navbar-text {
+    color: #00ffe8;
+}
+.navbar .navbar-text a {
+    color: #000000;
+}
+.navbar .navbar-text a:hover,
+.navbar .navbar-text a:focus {
+    color: #000000;
+}
+.navbar .navbar-nav .nav-link {
+    color: #00ffe8;
+    border-radius: .25rem;
+    margin: 0 0.25em;
+}
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
+    color: #000000;
+}
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-item.active .nav-link:hover,
+.navbar .navbar-nav .nav-item.active .nav-link:focus,
+.navbar .navbar-nav .nav-item.show .nav-link,
+.navbar .navbar-nav .nav-item.show .nav-link:hover,
+.navbar .navbar-nav .nav-item.show .nav-link:focus {
+    color: #000000;
+    background-color: #ff0000;
+}
+.navbar .navbar-toggle {
+    border-color: #ff0000;
+}
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:focus {
+    background-color: #ff0000;
+}
+.navbar .navbar-toggle .navbar-toggler-icon {
+    color: #00ffe8;
+}
+.navbar .navbar-collapse,
+.navbar .navbar-form {
+    border-color: #00ffe8;
+}
+.navbar .navbar-link {
+    color: #00ffe8;
+}
+.navbar .navbar-link:hover {
+    color: #000000;
+}
+@media (max-width: 575px) {
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #00ffe8;
+    }
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #000000;
+    }
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #000000;
+        background-color: #ff0000;
+    }
+}
+@media (max-width: 767px) {
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #00ffe8;
+    }
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #000000;
+    }
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #000000;
+        background-color: #ff0000;
+    }
+}
+@media (max-width: 991px) {
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #00ffe8;
+    }
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #000000;
+    }
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #000000;
+        background-color: #ff0000;
+    }
+}
+@media (max-width: 1199px) {
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #00ffe8;
+    }
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #000000;
+    }
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #000000;
+        background-color: #ff0000;
+    }
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #00ffe8;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #000000;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #000000;
+    background-color: #ff0000;
+}
+.bg {
+    background-image: url("../../img/RacquettesTennis2.jpg");
+    height : 100%;
+    background-position: center;
+    padding-top: 100px;
+}
+h1{
+    color: white;
+}
+@media only screen and (max-width: 480px) {
+    .bg {
+        background-image: url("../../img/RacquettesTennis.jpg");
+        height : 100%;
+        background-position: center;
+        padding-top: 100px;
+    }
+}
+.mauve{
+    color: black;
+    letter-spacing: 2px;
+}
+.bleu {
+    background-color: blue;
+}
+.blanc {
+    color: white;
+}
+.fontawesome{
+    background-color: yellow;
+}
+hr{
+    padding-bottom:10px;
+    padding-top:10px;
+    max-width: 300px;
+    border-width: 3px;
+    border-color: black;
+}
+.parallax {
+    /* L’image du Parallax */
+    background-image: url("../../img/hardCourt.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 900px;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax > .row, .parallax2 > .row, .parallax3 > .row{
+    height: 100%;
+}
+.parallax2 {
+    /* L’image du Parallax */
+    background-image: url("../../img/clayCourt.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 900px;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax3 {
+    /* L’image du Parallax */
+    background-image: url("../../img/grassCourt.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 900px;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pad-top{
+    padding-top: 200px;
+}
+.pad-bot{
+    padding-bottom: 200px;
+}
+
+@media only screen and (max-width: 480px) {
+    .mauve{
+        color: deeppink;
+        letter-spacing: 0px;
+    }
+    .pad-top{
+        padding-top: 10px;
+    }
+    .pad-bot{
+        padding-bottom: 10px;
+    }
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 1199px) {
+
+}

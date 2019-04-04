@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<!--intra30%.html-->
+<!--Par Maxime Létourneau-->
+<!--Le 5 avril 2019-->
+
+<html lang="fr-ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Tennis</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <link rel="icon" type="image/png" href="img/tennis_pictogram.png" />
+</head>
+<body>
+<!--NavBar-->
+<header>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <a class="navbar-brand" href="#" src="img/atp-logo.svg"></a>
+        <img src="img/atp-logo.svg" height="72px" width="118px"/>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            <i class="fas fa-arrow-circle-down fa-2x"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#Bannières">Bannières <span class="sr-only">(current)</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="#parallax">Parallax</a></li>
+                <li class="nav-item"><a class="nav-link" href="#Portfolio">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#fontAwesome">Font Awesome</a></li>
+                <li class="nav-item"><a class="nav-link" href="#Information">Information</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<section id="Bannières" class="bg">
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-xl-12 text-center">
+                <h1>ATP WORLD TOUR</h1>
+                <hr>
+
+                <div class="container pad-bot">
+                    <div class="row">
+                        <div class="col-xl-5 col-lg-4 col-md-4 col-12">
+                            <p class="font-weight-bold mauve">Le tennis est un sport de raquette qui oppose soit deux joueurs en simple, soit quatre joueurs en double.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Formulaire-->
+                <div class="container text-center">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                        Question ?
+                    </button>
+                    <div class="modal" tabindex="-1" role="dialog" id="exampleModal">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    <div class="container">
+                                        <h2 class="text-center">Question ?</h2>
+                                        <form>
+                                            <div class="form-group">
+                                                <label for="Prénom">Prénom:</label>
+                                                <input type="text" class="form-control" id="Prénom" placeholder="Entrez prénom">
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label for="Nom">Nom:</label>
+                                                <input type="text" class="form-control" id="Nom" placeholder="Entrez nom">
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label for="Pays">Pays:</label>
+                                                <input type="text" class="form-control" id="Pays" placeholder="Pays">
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label for="Demande d'aide">Qui êtes vous ?</label>
+                                                <select id="Demande d'aide" class="form-control">
+                                                    <option selected>CHOISIR...</option>
+                                                    <option>Famille/Amis (Spécifiez type de relation.)</option>
+                                                    <option>Journaliste (Spécifiez le nom du journal.)</option>
+                                                    <option>Fans</option>
+                                                    <option>Autre (Spécifiez qui vous êtes.)</option>
+                                                </select>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label for="Specification">Spécifiez:</label>
+                                                <input type="text" class="form-control" id="Specification" placeholder="Spécifiez">
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label for="Objet de la demande">Objet de la demande:</label>
+                                                <input type="text" class="form-control" id="Objet de la demande" placeholder="Objet de la demande">
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label for="Contact">Qui voulez-vous contacter:</label>
+                                                <input type="text" class="form-control" id="Contact" placeholder="Contact">
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label for="Question">Question / Commentaire:</label>
+                                                <textarea class="form-control" id="Question" rows="10"></textarea>
+                                            </div>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                                                <label class="form-check-label" for="exampleRadios1">
+                                                    Urgent
+                                                </label>
+                                            </div>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                                <label class="form-check-label" for="exampleRadios2">
+                                                    Important
+                                                </label>
+                                            </div>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                                                <label class="form-check-label" for="exampleRadios3">
+                                                    Peut Attendre
+                                                </label>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Save changes</button>
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container pad-top">
+                    <div class="row">
+                        <div class="offset-xl-5 col-xl-6 offset-lg-4 col-lg-8 offset-md-1 col-md-11 offset-0  col-12">
+                            <p class="font-weight-bold mauve">Le but du jeu est de frapper la balle de telle sorte que l'adversaire ne puisse la remettre dans les limites du terrain, soit en marquant le point en mettant l'adversaire hors de portée de la balle, soit en l'obligeant à commettre une faute (si sa balle ne retombe pas dans les limites du court, ou si elle ne passe pas le filet).
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="parallax">
+    <div class="container-fluid parallax">
+        <div class="row align-items-center">
+            <div class="col-12 text-center">
+                <h1>Hard Court</h1>
+                <div class="col-xl"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid parallax2">
+        <div class="row align-items-center">
+            <div class="col-12 text-center">
+                <h1>Clay Court</h1>
+                <div class="col-xl"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid parallax3">
+        <div class="row align-items-center">
+            <div class="col-12 text-center">
+                <h1>Grass Court</h1>
+                <div class="col-xl"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="col-xl-4">
+
+        </div>
+        <div class="col-xl-4">
+
+        </div>
+        <div class="col-xl-4">
+
+        </div>
+    </div>
+</section>
+
+<section id="Portfolio">
+    <div class="container-fluid">
+        <div class="row text-center">
+            <div class="col-xl-12 bleu">
+                <h1>Tournois du Grand Chelem + Masters 1000</h1>
+                <hr>
+                <p class="font-weight-bold blanc">Les tournois du grand chelem sont : l'Australian Open, Roland Garros, Wimbledon et l'US Open.</p>
+                <p class="font-weight-bold blanc">Les tournois de la série Masters 1000 sont : Indian Wells, Miami, Monte Carlo, Madrid, Rome, Montréal/Toronto, Cincinnati, Shanghai et Paris</p>
+                <p class="font-weight-bold blanc">Les championnats de fin de saison sont : Next Gen Finals à Milan, Italie et Nitto ATP Finals à London, Grande-Bretagne.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row no-gutters">
+            <div class="col-xl-4 col-md-6 col-12">
+                <img src="img/AustralianOpenGrandSlam.jpg" width="100%" alt="Australian Open" title="Australian Open"/>
+            </div>
+            <div class="col-xl-4 col-md-6 col-12">
+                <img src="img/RolandGarrosGrandSlam.jpg" width="100%" alt="Roland Garros" title="Roland Garros"/>
+            </div>
+            <div class="col-xl-4 col-md-6 col-12">
+                <img src="img/WimbledonGrandSlam.jpg" width="100%" alt="Wimbledon" title="Wimbledon"/>
+            </div>
+            <div class="col-xl-4 col-md-6 col-12">
+                <img src="img/USOpenGrandSlam.jpg" width="100%" alt="US Open" title="US Open"/>
+            </div>
+            <div class="col-xl-4 col-md-6 col-12">
+                <img src="img/IndianWells1000.jpg" width="100%" alt="Indian Wells" title="Indian Wells"/>
+            </div>
+            <div class="col-xl-4 col-md-6 col-12">
+                <img src="img/Miami1000.jpg" width="100%" alt="Miami" title="Miami"/>
+            </div>
+            <div class="col-xl-4 col-md-6 col-12">
+                <img src="img/MonteCarlo1000.jpg" width="100%" alt="Monte Carlo" title="Monte Carlo"/>
+            </div>
+            <div class="col-xl-4 col-md-6 col-12">
+                <img src="img/Madrid1000.jpg" width="100%" alt="Madrid" title="Madrid"/>
+            </div>
+            <div class="col-xl-4 col-md-6 col-12">
+                <img src="img/Rome1000.jpg" width="100%" alt="Rome" title="Rome"/>
+            </div>
+            <div class="col-xl-4 col-md-6 col-12">
+                <img src="img/Montréal1000.jpg" width="100%" alt="Montréal" title="Montréal"/>
+            </div>
+            <div class="col-xl-4 col-md-6 col-12">
+                <img src="img/Cincinnati1000.jpg" width="100%" alt="Cincinnati" title="Cincinnati"/>
+            </div>
+            <div class="col-xl-4 col-md-6 col-12">
+                <img src="img/Shanghai1000.jpg" width="100%" alt="Shanghai" title="Shanghai"/>
+            </div>
+            <div class="col-xl-4 col-md-6 col-12">
+                <img src="img/Paris1000.jpg" width="100%" alt="Paris" title="Paris"/>
+            </div>
+            <div class="col-xl-4 col-md-6 col-12">
+                <img src="img/MilanNextGenFinals.jpg" width="100%" alt="Milan Next Gen Finals" title="Milan Next Gen Finals"/>
+            </div>
+            <div class="col-xl-4 col-md-6 col-12">
+                <img src="img/LondonATPFinals.jpg" width="100%" alt="London ATP Finals" title="London ATP Finals"/>
+            </div>
+            <div class="col-xl-4 col-md-6 col-12">
+                <img src="img/drummondville-court.jpg" width="100%" alt="Challenger Drummondville" title="Challenger Drummondville"/>
+            </div>
+            <div class="col-xl-4 col-md-6 col-12">
+                <img src="img/gatineau-court.jpg" width="100%" alt="Challenger Gatineau" title="Challenger Gatineau"/>
+            </div>
+            <div class="col-xl-4 col-md-6 col-12">
+                <img src="img/granby-court.jpg" width="100%" alt="Challenger Granby" title="Challenger Granby"/>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="fontAwesome">
+    <div class="container-fluid fontawesome">
+        <div class="row no-gutters text-center">
+            <div class="col-xl-12">
+                <h2>Autres sports</h2>
+                <hr>
+            </div>
+            <div class="col-xl-3 col-md-6 col-12">
+                <i class="fas fa-baseball-ball fa-7x"></i>
+                <p>Baseball</p>
+            </div>
+            <div class="col-xl-3 col-md-6 col-12">
+                <i class="fas fa-basketball-ball fa-7x"></i>
+                <p>Basket-Ball</p>
+            </div>
+            <div class="col-xl-3 col-md-6 col-12">
+                <i class="fas fa-football-ball fa-7x"></i>
+                <p>Football</p>
+            </div>
+            <div class="col-xl-3 col-md-6 col-12">
+                <i class="fas fa-hockey-puck fa-7x"></i>
+                <p>Hockey</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container-fluid align-items-center">
+        <div class="row">
+            <div class="offset-4 col-1">
+                <i class="fab fa-facebook-square fa-2x"></i>
+            </div>
+            <div class="col-1">
+                <i class="fab fa-twitter-square fa-2x"></i>
+            </div>
+            <div class="col-1">
+                <i class="fab fa-instagram fa-2x"></i>
+            </div>
+            <div class="col-1">
+                <i class="fab fa-youtube-square fa-2x"></i>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="bootstrap/js/jquery-3.3.1.min.js"></script>
+<script src="bootstrap/js/bootstrap.js"></script>
+</body>
+</html>
